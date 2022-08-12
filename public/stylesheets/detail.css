@@ -1,0 +1,118 @@
+body {
+    background-color: white;
+}
+
+p,h3 {
+    color:black
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.name h3 {
+    float:left;
+    width: 100%;
+}
+
+
+.img img {
+    height: 200px;
+    width: 200px;
+    display:block;
+    margin:auto;
+}
+
+.sneakerInfo{
+    margin:10px;
+}
+
+
+
+.infoHeader {
+    float:left;
+    width: 100%;
+}
+
+.infoHeader h3 {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+
+.chart canvas {
+    /* width: 350px; */
+    /* height: 400px; */
+    display:block;
+    margin:auto;
+}
+
+.resellSites a {
+    color: black;
+}
+
+/*for the big screens*/
+@media only screen and (min-width: 768px) {
+    body {
+        text-align: inherit;
+    }
+
+    .sneakerInfo {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .nameAndImg {
+        width: 50%;
+    }
+
+    .name h3 {
+        text-align: center;
+    }
+
+    .otherInfo{
+        width: 50%;
+    }
+    
+    .graphs {
+        margin-top: 50px;
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .priceTime {
+        width: 50%;
+        text-align: center;
+    }
+    .averageSite {
+        width: 50%;
+        text-align: center;
+    }
+
+    .graphs canvas{
+        display:block;
+        margin:auto;
+
+    }
+    .customSize {
+        margin-top: 50px;
+        text-align: center;
+        display:block;
+        margin:auto;
+        width: 100%;
+    }
+
+    .sizeChart {
+        width: 50%;
+        float: left;
+    }
+
+    .resellSites {
+        width: 50%;
+        float: right;
+    }
+
+
+  }
+  
